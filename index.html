@@ -841,7 +841,7 @@ function renderModal() {
 
   return `
     <div class="overlay" data-action="close-modal">
-      <div class="modal-box" onclick="event.stopPropagation()">${inner}</div>
+      <div class="modal-box" data-action="noop">${inner}</div>
     </div>`;
 }
 
